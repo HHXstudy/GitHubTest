@@ -59,3 +59,12 @@
         2.修改文件后保存退出
         3.git add [filename]
         4.git commit -m "日志信息"(此时不能带具体文件名)
+
+## GitHub使用
+
+    git remote add [别名] [地址] 将本地库与GitHub中的库对于
+    git remote -v
+    origin  https://github.com/HHXstudy/GitHubTest.git (fetch)  拿
+    origin  https://github.com/HHXstudy/GitHubTest.git (push)   取
+    git push [别名] [分支名]
+    git clone [地址]
