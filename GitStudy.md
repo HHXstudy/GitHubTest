@@ -41,3 +41,17 @@
             git diff [filename] 将工作区的文件与暂存区的文件进行比较
             git diff [hash/HEAD] [filenmae] 将工作区的文件与本地库的文件进行比较
 
+## Git分支
+
+    创建分支
+        git branch [分支名]
+    查看分支
+        git branch -v
+    切换分支
+        git checkout [分支名]
+    合并分支
+        1.切换至要增加内容的主分支上 git checkout [分支名]
+        2.执行merge命令 git merge [要合并的分支]
+    解决合并冲突
+        分支表现: 
+        ![合并冲突](branch_modify.png "合并冲突") 
